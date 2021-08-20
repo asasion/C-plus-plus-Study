@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\1.C++初识">
+      <UniqueIdentifier>{476d3a85-1b04-47a3-b160-647947a2f2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2.数据类型">
+      <UniqueIdentifier>{3034cefe-1c31-4e80-9228-f863c80bd8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3.运算符">
+      <UniqueIdentifier>{27c81277-194c-4056-a87f-bf0c71286189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4.程序流程结构">
+      <UniqueIdentifier>{0e4174da-3535-432e-aa27-fd6429efdac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\5.数组">
+      <UniqueIdentifier>{64cb1639-0a86-41da-84a8-078841e76053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\6.函数">
+      <UniqueIdentifier>{e3207e9e-1822-4527-9f15-febc04061e60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.1第一个c++程序hello world.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="1.2注释.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="1.3变量.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="1.4常量.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="1.5关键字.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="1.6标识符命名规则.cpp">
+      <Filter>源文件\1.C++初识</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1整形.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2sizeof关键字.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.3实型（浮点型）.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4字符型.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.5转义字符.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.6字符串类型.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.7布尔类型bool.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="2.8数据的输入cin.cpp">
+      <Filter>源文件\2.数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2算数运算符-取模.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.1算术运算符-加减乘除.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3算数运算符-自增自减.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4算术运算符-赋值运算符.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5算术运算符-比较运算符.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.6逻辑运算符-非！.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.7逻辑运算符-与.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="3.8逻辑运算符-或.cpp">
+      <Filter>源文件\3.运算符</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2选择结构-多行if语句.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3选择结构-多条件if语句.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4选择结构-嵌套if语句.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5实例：三只小猪称体重.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6选择结构-三目运算符.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.7选择结构-switch语句.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.8循环结构-while循环.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1选择结构-单行if语句.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9while循环练习案例：猜数字.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.10do…while循环练习案例：水仙花数.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.11循环结构-for循环.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.12练习案例-敲桌子.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.13嵌套循环.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.14练习案例-乘法口诀表.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.15跳转语句-break.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.16跳转语句-continue.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="4.17跳转语句-goto.cpp">
+      <Filter>源文件\4.程序流程结构</Filter>
+    </ClCompile>
+    <ClCompile Include="5.1一维数组的定义.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2一维数组-数组名.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.3练习案例-五只小猪称体重.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.4练习案例-元素逆置.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.5冒泡排序.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.6二维数组-四种定义方式.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="5.7二维数组-数组名.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.8二维数组-考试成绩统计.cpp">
+      <Filter>源文件\5.数组</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1函数的定义.cpp">
+      <Filter>源文件\6.函数</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2函数的调用、实参与形参.cpp">
+      <Filter>源文件\6.函数</Filter>
+    </ClCompile>
+    <ClCompile Include="6.3值传递.cpp">
+      <Filter>源文件\6.函数</Filter>
+    </ClCompile>
+    <ClCompile Include="6.4函数的常见样式.cpp">
+      <Filter>源文件\6.函数</Filter>
+    </ClCompile>
+    <ClCompile Include="6.5函数的声明.cpp">
+      <Filter>源文件\6.函数</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
