@@ -31,6 +31,9 @@
     <Filter Include="源文件\6.函数">
       <UniqueIdentifier>{e3207e9e-1822-4527-9f15-febc04061e60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\6.函数\6.7函数的分文件编写">
+      <UniqueIdentifier>{8d754de3-615b-4d60-89b4-3ce900c212c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -192,5 +195,16 @@
     <ClCompile Include="6.5函数的声明.cpp">
       <Filter>源文件\6.函数</Filter>
     </ClCompile>
+    <ClCompile Include="6.7函数的分文件编写.cpp">
+      <Filter>源文件\6.函数\6.7函数的分文件编写</Filter>
+    </ClCompile>
+    <ClCompile Include="swap67.cpp">
+      <Filter>源文件\6.函数\6.7函数的分文件编写</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swap67.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

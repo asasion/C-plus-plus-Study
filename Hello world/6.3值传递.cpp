@@ -3,7 +3,7 @@ using namespace std;
 //值传递是指函数调用时实参将数值传入给形参
 //值传递时，如果形参发生数值改变，不会影响到实参
 //如果函数不需要返回值，声明的时函数类型可以为void型（无返回值类型）
-void swap(int num1, int num2)
+void swap63(int num1, int num2)
 {
 	cout << "交换前：" << endl;
 	cout << "num1=" << num1 << endl;
