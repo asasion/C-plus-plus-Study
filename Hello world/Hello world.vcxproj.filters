@@ -34,6 +34,9 @@
     <Filter Include="源文件\6.函数\6.7函数的分文件编写">
       <UniqueIdentifier>{8d754de3-615b-4d60-89b4-3ce900c212c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\7.指针">
+      <UniqueIdentifier>{70685370-bed3-4f57-93ed-f0e217a08b85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -200,6 +203,21 @@
     </ClCompile>
     <ClCompile Include="swap67.cpp">
       <Filter>源文件\6.函数\6.7函数的分文件编写</Filter>
+    </ClCompile>
+    <ClCompile Include="7.1指针的概念、定义和使用.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.2指针所占内存空间.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3空指针.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.4野指针.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.5const修饰指针.cpp">
+      <Filter>源文件\7.指针</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -27,7 +27,7 @@ using namespace std;
 3.在头文件中写函数的声明
 4.在源文件中写函数的定义
 */
-int main65()
+int main67()
 {
 	int a = 0;
 	int b = 1;
