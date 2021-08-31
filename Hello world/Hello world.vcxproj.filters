@@ -219,6 +219,15 @@
     <ClCompile Include="7.5const修饰指针.cpp">
       <Filter>源文件\7.指针</Filter>
     </ClCompile>
+    <ClCompile Include="7.6指针和数组.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.7指针和函数.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="7.8指针配合数组和函数案例.cpp">
+      <Filter>源文件\7.指针</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">

@@ -194,6 +194,9 @@
     <ClCompile Include="7.3空指针.cpp" />
     <ClCompile Include="7.4野指针.cpp" />
     <ClCompile Include="7.5const修饰指针.cpp" />
+    <ClCompile Include="7.6指针和数组.cpp" />
+    <ClCompile Include="7.7指针和函数.cpp" />
+    <ClCompile Include="7.8指针配合数组和函数案例.cpp" />
     <ClCompile Include="swap67.cpp" />
     <ClCompile Include="模板.cpp" />
     <ClCompile Include="5.8二维数组-考试成绩统计.cpp" />
