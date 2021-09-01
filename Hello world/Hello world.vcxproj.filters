@@ -37,6 +37,9 @@
     <Filter Include="源文件\7.指针">
       <UniqueIdentifier>{70685370-bed3-4f57-93ed-f0e217a08b85}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\8.结构体">
+      <UniqueIdentifier>{24eb2336-b2ff-4800-a0ef-cb180fba1350}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -227,6 +230,9 @@
     </ClCompile>
     <ClCompile Include="7.8指针配合数组和函数案例.cpp">
       <Filter>源文件\7.指针</Filter>
+    </ClCompile>
+    <ClCompile Include="8.1结构体的定义和使用.cpp">
+      <Filter>源文件\8.结构体</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
