@@ -4,7 +4,8 @@ using namespace std;
 //已学过的数据类型有：整形，浮点型，字符型，布尔型，字符串型
 //使用结构体就可以自定义一个数据类型
 //语法：struct 结构体名{结构体成员列表};
-
+#include <iostream>
+using namespace std;
 int main()
 {
 
