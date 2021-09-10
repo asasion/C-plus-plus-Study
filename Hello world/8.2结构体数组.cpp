@@ -16,7 +16,7 @@ struct Student
 
  };
 
-int main()
+int main82()
 {
 //2、创建结构体数组
 	struct Student stuArray[3] =

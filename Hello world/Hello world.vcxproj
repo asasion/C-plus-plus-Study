@@ -199,6 +199,7 @@
     <ClCompile Include="7.8指针配合数组和函数案例.cpp" />
     <ClCompile Include="8.1结构体的定义和使用.cpp" />
     <ClCompile Include="8.2结构体数组.cpp" />
+    <ClCompile Include="8.4结构体指针.cpp" />
     <ClCompile Include="swap67.cpp" />
     <ClCompile Include="模板.cpp" />
     <ClCompile Include="5.8二维数组-考试成绩统计.cpp" />
