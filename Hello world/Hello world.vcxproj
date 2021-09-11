@@ -204,12 +204,14 @@
     <ClCompile Include="8.6结构体做函数参数.cpp" />
     <ClCompile Include="8.7结构体中const的使用场景.cpp" />
     <ClCompile Include="8.8.1结构体案例1.cpp" />
+    <ClCompile Include="8.8.2结构体案例2.cpp" />
     <ClCompile Include="swap67.cpp" />
     <ClCompile Include="模板.cpp" />
     <ClCompile Include="5.8二维数组-考试成绩统计.cpp" />
     <ClCompile Include="6.1函数的定义.cpp" />
     <ClCompile Include="6.2函数的调用、实参与形参.cpp" />
     <ClCompile Include="6.3值传递.cpp" />
+    <ClCompile Include="通讯录管理系统.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h" />

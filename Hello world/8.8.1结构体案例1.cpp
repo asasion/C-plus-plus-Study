@@ -34,7 +34,7 @@ void allocateSpace(struct Teacher tArray[],int len)//¸øÀÏÊ¦µÄĞÅÏ¢¿ª±Ù¿Õ¼ä²¢¸³Öµµ
 			for (int j = 0; j < 5; j++) {
 				tArray[i].sArray[j].sName = "Student_";
 				tArray[i].sArray[j].sName += nameSeed[j];
-				int random = rand() % 61+40;//0~59·Ö+40£¬40~100·ÖÖĞ¼äµÄËæ»úÊı
+				int random = rand() % 61+40;//0~59·Ö+40£¬40~100·ÖÖĞ¼äµÄËæ»úÊı,rand()%mÕâ¸öº¯ÊıÊÇËæ»ú²úÉú0µ½m-1µÄËæ»úÊı£»±ÈÈçrand()%10¾ÍÊÇËæ»ú²úÉú0µ½9µÄËæ»úÊı¡£
 				tArray[i].sArray[j].score = random;
 			}
 			
@@ -55,14 +55,14 @@ void printInfo(struct Teacher tArray[],int len)
 
 	}
 }
-int main()
+int main881()
 {
 	//Ëæ»úÊıÖÖ×Ó£¬°´ÕÕÏµÍ³µ±Ç°µÄÊ±¼ä²úÉúµÄËæ»úÊı
 	srand((unsigned int)time(NULL));
 	//1¡¢´´½¨3ÃûÀÏÊ¦µÄÊı×é
 	struct Teacher tArray[3];
 	//2¡¢Í¨¹ıº¯Êı¸ø3ÃûÀÏÊ¦µÄĞÅÏ¢¸³Öµ£¬²¢ÇÒ¸øÀÏÊ¦´øµÄÑ§ÉúµÄĞÅÏ¢Ò²¸³Öµ
-	int len = sizeof(tArray) / sizeof(tArray[0]);
+	int len = sizeof(tArray) / sizeof(tArray[0]);//ÀÏÊ¦µÄ¸öÊı
 	allocateSpace(tArray, len);
 	//3¡¢´òÓ¡ËùÓĞÀÏÊ¦¼°Ëù´øÑ§ÉúµÄĞÅÏ¢
 	printInfo(tArray,len);
