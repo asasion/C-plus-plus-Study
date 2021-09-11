@@ -246,6 +246,12 @@
     <ClCompile Include="8.6结构体做函数参数.cpp">
       <Filter>源文件\8.结构体</Filter>
     </ClCompile>
+    <ClCompile Include="8.7结构体中const的使用场景.cpp">
+      <Filter>源文件\8.结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="8.8.1结构体案例1.cpp">
+      <Filter>源文件\8.结构体</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
