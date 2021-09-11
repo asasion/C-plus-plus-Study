@@ -34,7 +34,7 @@ void allocateSpace(struct Teacher tArray[],int len)//¸øÀÏÊ¦µÄĞÅÏ¢¿ª±Ù¿Õ¼ä²¢¸³Öµµ
 			for (int j = 0; j < 5; j++) {
 				tArray[i].sArray[j].sName = "Student_";
 				tArray[i].sArray[j].sName += nameSeed[j];
-				int random = rand() % 61+40;//0~59·Ö+40£¬40~100·ÖÖĞ¼äµÄËæ»úÊı
+				int random = rand() % 61+40;//0~59·Ö+40£¬40~100·ÖÖĞ¼äµÄËæ»úÊı,rand()%mÕâ¸öº¯ÊıÊÇËæ»ú²úÉú0µ½m-1µÄËæ»úÊı£»±ÈÈçrand()%10¾ÍÊÇËæ»ú²úÉú0µ½9µÄËæ»úÊı¡£
 				tArray[i].sArray[j].score = random;
 			}
 			
