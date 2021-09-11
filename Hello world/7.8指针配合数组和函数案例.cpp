@@ -33,7 +33,7 @@ int main78()
 	//数组长度
 	int len = sizeof(arr) / sizeof(arr[0]);//计算数组长度
 //2、创建一个函数，实现冒泡排序
-	bubbleSort(arr, len);
+	bubbleSort78(arr, len);
 //3、打印排序后的数组
 	print78(arr, len);
 	system("pause");
