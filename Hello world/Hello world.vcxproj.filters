@@ -240,6 +240,12 @@
     <ClCompile Include="8.4结构体指针.cpp">
       <Filter>源文件\8.结构体</Filter>
     </ClCompile>
+    <ClCompile Include="8.5结构体嵌套结构体.cpp">
+      <Filter>源文件\8.结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="8.6结构体做函数参数.cpp">
+      <Filter>源文件\8.结构体</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">

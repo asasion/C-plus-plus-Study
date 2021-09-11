@@ -11,7 +11,7 @@ struct Student
 	int age;//年龄
 	int score;//分数
 };
-int main()
+int main84()
 {
 	//1、创建学生结构体变量
 	struct Student s = { "张三",18,100 };
