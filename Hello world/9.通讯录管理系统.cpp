@@ -91,7 +91,6 @@ void addPerson(Addressbooks* abs)
 		cin >> name;
 		abs->personArray[abs->m_Size].m_Name = name;
 		//联系人性别
-		string sex;
 		cout << "请输入联系人性别：" << endl;
 		cout << "1——男" << endl;
 		cout << "2——女" << endl;
@@ -164,13 +163,70 @@ void showPerson(Addressbooks *abs)
 	system("pause");//按任意键继续
 	system("cls");//清屏
 }
+/*3、删除指定的联系人
+功能描述：按照姓名进行删除指定联系人
+删除联系人实现步骤：
+·封装检测联系人是否存在
+·封装删除联系人函数
+·测试删除联系人功能
+*/
+/*
+7.1封装检测联系人是否存在
+设计思路：删除联系人前，我们需要先判断用户输入的联系人是否存在，如果存在删除，
+不存在提示用户没有要删除的联系人，因此我们可以把检测人员是否存在封装成一个函数中，
+如果存在，返回联系人在通讯录中的位置，不存在返回-1
+*/
+//检测联系人是否存在，如果存在，返回联系人所在数组中的具体位置，不存在返回-1。
+int isExist(Addressbooks *abs,string name)//参数1：传入通讯录 参数2：对比名称
+{
+	for (int i = 0; i < abs->m_Size-1; i++)//为什么要abs->m_Size-1？？
+	{
+		if (abs->personArray[i].m_Name == name)
+		{
+			return i;//找到了，返回这个人在数组中的下标编号
+		}
+		else
+		{ 
+		return -1;//如果没有找到返回一个-1
+		}
+	}
+}
+/*
+7.2封装删除联系人函数
+根据用户输入的联系人判断该通讯录中是否有此人
+查找到进行删除，并提示删除成功
+查找不到提示查无此人
+*/
+void deletePerson(Addressbooks* abs)
+{
+	cout << "请输入您要删除的联系人：" << endl;
+	string name;
+	cin >> name;
+	int ret=isExist(abs, name);//ret==-1，查无此人。ret!=-1,查到此人。
+	if (ret != -1)
+	{
+		//查到此人，进行删除的操作
+		for (int i = ret; i < abs->m_Size; i++)//将数组中的数据前移，覆盖掉需要删除掉的数据
+		{
+			//数据前移
+			abs->personArray[i] = abs->personArray[i+1];
+		}
+		abs->m_Size--;//更新通讯录中的人员数
+		cout << "删除成功！" << endl;
+	}
+	else
+	{
+		cout << "查无此人！" << endl;
+	}
+	system("pause");
+	system("cls");
+}
 int main()
 {
 	//创建通讯录的结构体变量
 	Addressbooks abs;
 	//初始化通讯录中当前人员个数
 	abs.m_Size = 0;//通讯录中人员个数初始化为0
-
 	int select = 0;//创建用户选择输入的变量
 	while (true)
 	{
@@ -185,8 +241,23 @@ int main()
 		case 2://2、显示联系人
 			showPerson(&abs);
 			break;
-		case 3://3、删除联系人
+		case 3://3、删除联系人,如果case在break之前的代码很长就会报错
+		/*{
+			cout << "请输入删除的联系人的姓名：" << endl;
+			string name;
+			cin >> name;
+			if (isExist(&abs, name) == -1)
+			{
+				cout << "查无此人。" << endl;
+			}
+			else
+			{
+				cout << "找到此人。" << endl;
+			}
+		}*/
+			deletePerson(&abs);
 			break;
+
 		case 4://4、查找联系人
 			break;
 		case 5://5、修改联系人
