@@ -67,6 +67,7 @@ struct Person
 并记录当前通讯录中联系人数量
 设计如下
 */
+
 struct Addressbooks
 {
 	struct Person personArray[MAX];//通讯录中保存的联系人数组
@@ -90,6 +91,7 @@ void addPerson(Addressbooks* abs)
 		cin >> name;
 		abs->personArray[abs->m_Size].m_Name = name;
 		//联系人性别
+		string sex;
 		cout << "请输入联系人性别：" << endl;
 		cout << "1——男" << endl;
 		cout << "2——女" << endl;
@@ -98,7 +100,7 @@ void addPerson(Addressbooks* abs)
 		{
 			//如果输入的是1或者2可以退出循环，输入值为预期值，
 			//如果输入有误，请重新输入
-			cin >> sex;
+		cin >> sex;
 		if (sex == 1 || sex == 2)
 			{
 			abs->personArray[abs->m_Size].m_Sex = sex;
@@ -168,6 +170,7 @@ int main()
 	Addressbooks abs;
 	//初始化通讯录中当前人员个数
 	abs.m_Size = 0;//通讯录中人员个数初始化为0
+
 	int select = 0;//创建用户选择输入的变量
 	while (true)
 	{
@@ -181,7 +184,7 @@ int main()
 			break;
 		case 2://2、显示联系人
 			showPerson(&abs);
-				break;
+			break;
 		case 3://3、删除联系人
 			break;
 		case 4://4、查找联系人
@@ -205,6 +208,7 @@ int main()
 			break;
 		}
 	}
+	
 	system("pause");
 	return 0;
 }
