@@ -146,6 +146,7 @@
     <ClCompile Include="1.4常量.cpp" />
     <ClCompile Include="1.5关键字.cpp" />
     <ClCompile Include="1.6标识符命名规则.cpp" />
+    <ClCompile Include="10.1.1代码区.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -214,7 +215,11 @@
     <ClCompile Include="9.通讯录管理系统.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="swap67.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\NOTE\C++\Hello world\Hello world\内存四区.xmind" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

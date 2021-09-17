@@ -43,6 +43,12 @@
     <Filter Include="源文件\9.通讯录管理系统案例">
       <UniqueIdentifier>{1192793b-98ad-49d0-b168-21f77a2f3cf6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\10.程序的内存模型">
+      <UniqueIdentifier>{acbce601-1cdc-4d2e-8cc8-7868663e9b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\10.程序的内存模型\10.1内存四区">
+      <UniqueIdentifier>{2f9017a6-ef50-409b-b870-536f4458085a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -261,10 +267,21 @@
     <ClCompile Include="9.通讯录管理系统.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
     </ClCompile>
+    <ClCompile Include="10.1.1代码区.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\NOTE\C++\Hello world\Hello world\内存四区.xmind">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
+    </None>
   </ItemGroup>
 </Project>
