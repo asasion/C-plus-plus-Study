@@ -207,6 +207,7 @@
     <ClCompile Include="8.8.1结构体案例1.cpp" />
     <ClCompile Include="8.8.2结构体案例2.cpp" />
     <ClCompile Include="swap67.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="模板.cpp" />
     <ClCompile Include="5.8二维数组-考试成绩统计.cpp" />
     <ClCompile Include="6.1函数的定义.cpp" />

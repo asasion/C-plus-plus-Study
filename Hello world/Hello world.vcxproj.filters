@@ -270,6 +270,9 @@
     <ClCompile Include="10.1.1代码区.cpp">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
