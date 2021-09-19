@@ -286,8 +286,5 @@
     <None Include="内存四区笔记.md">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </None>
-    <None Include="..\..\B站黑马C++视频讲义\第3阶段-C++核心编程 资料\资料\讲义\C++核心编程.md">
-      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
-    </None>
   </ItemGroup>
 </Project>
