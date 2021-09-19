@@ -49,6 +49,15 @@
     <Filter Include="源文件\10.程序的内存模型\10.1内存四区">
       <UniqueIdentifier>{2f9017a6-ef50-409b-b870-536f4458085a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\10.程序的内存模型\10.1内存四区\10.1.1程序运行前的分区">
+      <UniqueIdentifier>{abbc43a9-1356-4c70-ba17-69f62c3aab72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\10.程序的内存模型\10.1内存四区\10.1.2程序运行后的分区">
+      <UniqueIdentifier>{5ee2c540-d049-48b7-a6e7-52c05120d1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\11.引用">
+      <UniqueIdentifier>{bb36d15a-5377-42e1-a90c-06ad106c5edf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -267,11 +276,23 @@
     <ClCompile Include="9.通讯录管理系统.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
     </ClCompile>
-    <ClCompile Include="10.1.1代码区.cpp">
+    <ClCompile Include="10.1.1.1代码区.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区\10.1.1程序运行前的分区</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.1.2全局区.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区\10.1.1程序运行前的分区</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.2.1栈区.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区\10.1.2程序运行后的分区</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.2.2堆区.cpp">
+      <Filter>源文件\10.程序的内存模型\10.1内存四区\10.1.2程序运行后的分区</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.3new操作符.cpp">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
+    <ClCompile Include="2.1引用的基本使用.cpp">
+      <Filter>源文件\11.引用</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -283,8 +304,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="内存四区笔记.md">
-      <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
+    <None Include="C++核心编程.md">
+      <Filter>源文件\10.程序的内存模型</Filter>
     </None>
   </ItemGroup>
 </Project>

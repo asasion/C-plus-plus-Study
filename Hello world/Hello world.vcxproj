@@ -142,11 +142,16 @@
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp" />
     <ClCompile Include="1.2注释.cpp" />
+    <ClCompile Include="10.1.2.1栈区.cpp" />
     <ClCompile Include="1.3变量.cpp" />
     <ClCompile Include="1.4常量.cpp" />
     <ClCompile Include="1.5关键字.cpp" />
     <ClCompile Include="1.6标识符命名规则.cpp" />
-    <ClCompile Include="10.1.1代码区.cpp" />
+    <ClCompile Include="10.1.1.1代码区.cpp" />
+    <ClCompile Include="10.1.1.2全局区.cpp" />
+    <ClCompile Include="10.1.2.2堆区.cpp" />
+    <ClCompile Include="10.1.3new操作符.cpp" />
+    <ClCompile Include="2.1引用的基本使用.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -207,7 +212,6 @@
     <ClCompile Include="8.8.1结构体案例1.cpp" />
     <ClCompile Include="8.8.2结构体案例2.cpp" />
     <ClCompile Include="swap67.cpp" />
-    <ClCompile Include="test.cpp" />
     <ClCompile Include="模板.cpp" />
     <ClCompile Include="5.8二维数组-考试成绩统计.cpp" />
     <ClCompile Include="6.1函数的定义.cpp" />
@@ -220,7 +224,7 @@
     <ClInclude Include="swap67.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="内存四区笔记.md" />
+    <None Include="C++核心编程.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
