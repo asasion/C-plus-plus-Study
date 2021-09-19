@@ -220,8 +220,7 @@
     <ClInclude Include="swap67.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\C++\B站黑马C++视频讲义\第3阶段-C++核心编程 资料\资料\讲义\C++核心编程.md" />
-    <None Include="..\..\..\NOTE\C++\Hello world\Hello world\内存四区.xmind" />
+    <None Include="..\..\B站黑马C++视频讲义\第3阶段-C++核心编程 资料\资料\讲义\C++核心编程.md" />
     <None Include="内存四区笔记.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
