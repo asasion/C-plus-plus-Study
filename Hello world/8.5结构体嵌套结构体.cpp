@@ -8,15 +8,15 @@ using namespace std;
 struct student
 {
 	string name;//姓名
-	int age;//年龄
-	int score;//分数
+	int age=0;//年龄
+	int score=0;//分数
 };
 //结构体嵌套结构体
 struct teacher
 {
 	int ID;
 	string name;
-	int age;
+	int age=0;
 	struct student stu;//辅导的学生，学生结构体定义在主函数外
 };
 int main85()

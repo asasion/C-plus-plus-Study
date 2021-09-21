@@ -221,8 +221,8 @@
     <ClCompile Include="6.1函数的定义.cpp" />
     <ClCompile Include="6.2函数的调用、实参与形参.cpp" />
     <ClCompile Include="6.3值传递.cpp" />
-    <ClCompile Include="9.通讯录管理系统.cpp" />
-    <ClCompile Include="练习.cpp" />
+    <ClCompile Include="9.1通讯录管理系统.cpp" />
+    <ClCompile Include="9.2练习.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />

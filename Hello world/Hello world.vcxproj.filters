@@ -273,7 +273,7 @@
     <ClCompile Include="8.8.2结构体案例2.cpp">
       <Filter>源文件\8.结构体</Filter>
     </ClCompile>
-    <ClCompile Include="9.通讯录管理系统.cpp">
+    <ClCompile Include="9.1通讯录管理系统.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
     </ClCompile>
     <ClCompile Include="10.1.1.1代码区.cpp">
@@ -291,7 +291,7 @@
     <ClCompile Include="10.1.3new操作符.cpp">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </ClCompile>
-    <ClCompile Include="练习.cpp">
+    <ClCompile Include="9.2练习.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
     </ClCompile>
     <ClCompile Include="11.1引用的基本使用.cpp">
