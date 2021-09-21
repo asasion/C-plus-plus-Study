@@ -43,7 +43,7 @@ void test1013_02()
 	//释放堆区数组
 	delete[]arr;//delete后加一个中括号，告诉编译器我释放的是一个指针，否则会释放错误。
 }
-int main()
+int main1013()
 {
 	test1013_01();
 	test1013_02();

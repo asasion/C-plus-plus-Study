@@ -151,7 +151,11 @@
     <ClCompile Include="10.1.1.2全局区.cpp" />
     <ClCompile Include="10.1.2.2堆区.cpp" />
     <ClCompile Include="10.1.3new操作符.cpp" />
-    <ClCompile Include="2.1引用的基本使用.cpp" />
+    <ClCompile Include="11.1引用的基本使用.cpp" />
+    <ClCompile Include="11.2引用注意事项.cpp" />
+    <ClCompile Include="11.3引用做函数参数.cpp" />
+    <ClCompile Include="11.4引用做函数返回值.cpp" />
+    <ClCompile Include="11.5引用的本质.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -223,10 +227,6 @@
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="swap67.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="C++核心编程.md" />
-    <None Include="通讯录管理系统.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

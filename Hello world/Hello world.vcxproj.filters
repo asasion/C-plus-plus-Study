@@ -291,11 +291,23 @@
     <ClCompile Include="10.1.3new操作符.cpp">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </ClCompile>
-    <ClCompile Include="2.1引用的基本使用.cpp">
-      <Filter>源文件\11.引用</Filter>
-    </ClCompile>
     <ClCompile Include="练习.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
+    </ClCompile>
+    <ClCompile Include="11.1引用的基本使用.cpp">
+      <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="11.2引用注意事项.cpp">
+      <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="11.3引用做函数参数.cpp">
+      <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="11.4引用做函数返回值.cpp">
+      <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="11.5引用的本质.cpp">
+      <Filter>源文件\11.引用</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -305,13 +317,5 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="C++核心编程.md">
-      <Filter>源文件\10.程序的内存模型</Filter>
-    </None>
-    <None Include="通讯录管理系统.md">
-      <Filter>源文件\9.通讯录管理系统案例</Filter>
-    </None>
   </ItemGroup>
 </Project>
