@@ -58,6 +58,15 @@
     <Filter Include="源文件\11.引用">
       <UniqueIdentifier>{bb36d15a-5377-42e1-a90c-06ad106c5edf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\12.函数高级">
+      <UniqueIdentifier>{85ad3ba1-a477-49ca-ad95-edd0b151911a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\13.类和对象">
+      <UniqueIdentifier>{096df14c-8487-4e49-ac24-69ea41c0d70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\13.类和对象\13.1封装">
+      <UniqueIdentifier>{3a48b1c4-1a39-48d1-a887-a30e0540c43f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -291,7 +300,7 @@
     <ClCompile Include="10.1.3new操作符.cpp">
       <Filter>源文件\10.程序的内存模型\10.1内存四区</Filter>
     </ClCompile>
-    <ClCompile Include="9.2练习.cpp">
+    <ClCompile Include="9.2通讯录管理系统练习.cpp">
       <Filter>源文件\9.通讯录管理系统案例</Filter>
     </ClCompile>
     <ClCompile Include="11.1引用的基本使用.cpp">
@@ -308,6 +317,30 @@
     </ClCompile>
     <ClCompile Include="11.5引用的本质.cpp">
       <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="11.6常量引用.cpp">
+      <Filter>源文件\11.引用</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1函数默认参数.cpp">
+      <Filter>源文件\12.函数高级</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2函数占位参数.cpp">
+      <Filter>源文件\12.函数高级</Filter>
+    </ClCompile>
+    <ClCompile Include="12.3函数重载概述.cpp">
+      <Filter>源文件\12.函数高级</Filter>
+    </ClCompile>
+    <ClCompile Include="12.4函数重载的注意事项.cpp">
+      <Filter>源文件\12.函数高级</Filter>
+    </ClCompile>
+    <ClCompile Include="13.1.1属性和行为作为整体.cpp">
+      <Filter>源文件\13.类和对象\13.1封装</Filter>
+    </ClCompile>
+    <ClCompile Include="13.1.2案例：设计学生类.cpp">
+      <Filter>源文件\13.类和对象\13.1封装</Filter>
+    </ClCompile>
+    <ClCompile Include="13.1.3封装权限.cpp">
+      <Filter>源文件\13.类和对象\13.1封装</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

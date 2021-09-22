@@ -321,7 +321,7 @@ void cleanPerson(Addressbooks *abs)
 	system("pause");
 	system("cls");
 }
-int main()
+int main91()
 {
 	//创建通讯录的结构体变量
 	Addressbooks abs;

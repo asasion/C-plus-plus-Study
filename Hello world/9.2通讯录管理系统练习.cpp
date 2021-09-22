@@ -51,64 +51,64 @@ struct addressbooks//通讯录结构体，结构体嵌套
 	struct person personArray[MAX];
 	int Size;//记录当前通讯录中的人数
 };
-void addPerson(Addressbooks* abs)
-{
-	cout << "请输入联系人的名字：" << endl;
-	string name;
-	cin >> name;
-	abs.personArray->name = name;
-	cout << "请输入联系人的性别：" << endl;
-	cout << "1——男，2——女" << endl;
-	int sex;
-	while (true)
-	{
-		cin >> sex;
-		if (sex == 1 || sex == 2)
-		{
-			abs.personArray->sex = sex;
-			break;
-		}
-		cout << "输入错误，请重新输入。" << endl;
-	}
-	cout << "请输入联系人的年龄：" << endl;
-	int age;
-	cin >> age;
-	abs.personArray->age = age;
-	cout << "请输入联系人的联系电话：" << endl;
-	string phone;
-	cin >> phone;
-	abs.personArray->phone = phone;
-	cout << "请输入联系人的地址：" << endl;
-	string addr;
-	abs.personArray->addr = addr;
-	abs.Size++;
-}
+//void addPerson(Addressbooks* abs)
+//{
+//	cout << "请输入联系人的名字：" << endl;
+//	string name;
+//	cin >> name;
+//	abs.personArray->name = name;
+//	cout << "请输入联系人的性别：" << endl;
+//	cout << "1——男，2——女" << endl;
+//	int sex;
+//	while (true)
+//	{
+//		cin >> sex;
+//		if (sex == 1 || sex == 2)
+//		{
+//			abs.personArray->sex = sex;
+//			break;
+//		}
+//		cout << "输入错误，请重新输入。" << endl;
+//	}
+//	cout << "请输入联系人的年龄：" << endl;
+//	int age;
+//	cin >> age;
+//	abs.personArray->age = age;
+//	cout << "请输入联系人的联系电话：" << endl;
+//	string phone;
+//	cin >> phone;
+//	abs.personArray->phone = phone;
+//	cout << "请输入联系人的地址：" << endl;
+//	string addr;
+//	abs.personArray->addr = addr;
+//	abs->Size++;
+//}
 
 
-int main92()
-{
-	int select = 0;//select代表用户输入的选择
-	showMenu92();
-	while (true)
-	{
-		addressbooks abs;//通讯录结构体变量
-		select = 0;
-		cin >> select;
-		switch (select)
-		{
-		case 0://退出怎么搞？？？
-			cout << "欢迎下次使用！" << endl;
-			system("pause");
-			return 0;//函数返回值执行后代表函数即将退出
-				break;
-		case 1:
-			
-		}
-
-	}
-	system("pause");
-	return 0;
-}
+//int main92()
+//{
+//	int select = 0;//select代表用户输入的选择
+//	showMenu92();
+//	while (true)
+//	{
+//		addressbooks abs;//通讯录结构体变量
+//		select = 0;
+//		cin >> select;
+//		switch (select)
+//		{
+//		case 0://退出怎么搞？？？
+//			cout << "欢迎下次使用！" << endl;
+//			system("pause");
+//			return 0;//函数返回值执行后代表函数即将退出
+//				break;
+//		case 1:
+//			
+//		}
+//
+//	}
+//	system("pause");
+//	return 0;
+//}
 /*
 总结：
 1、变量的名称有考究

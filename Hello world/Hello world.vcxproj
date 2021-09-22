@@ -156,6 +156,14 @@
     <ClCompile Include="11.3引用做函数参数.cpp" />
     <ClCompile Include="11.4引用做函数返回值.cpp" />
     <ClCompile Include="11.5引用的本质.cpp" />
+    <ClCompile Include="11.6常量引用.cpp" />
+    <ClCompile Include="12.1函数默认参数.cpp" />
+    <ClCompile Include="12.2函数占位参数.cpp" />
+    <ClCompile Include="12.3函数重载概述.cpp" />
+    <ClCompile Include="12.4函数重载的注意事项.cpp" />
+    <ClCompile Include="13.1.1属性和行为作为整体.cpp" />
+    <ClCompile Include="13.1.2案例：设计学生类.cpp" />
+    <ClCompile Include="13.1.3封装权限.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -222,7 +230,7 @@
     <ClCompile Include="6.2函数的调用、实参与形参.cpp" />
     <ClCompile Include="6.3值传递.cpp" />
     <ClCompile Include="9.1通讯录管理系统.cpp" />
-    <ClCompile Include="9.2练习.cpp" />
+    <ClCompile Include="9.2通讯录管理系统练习.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
