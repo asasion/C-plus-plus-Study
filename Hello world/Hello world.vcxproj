@@ -163,7 +163,12 @@
     <ClCompile Include="12.4函数重载的注意事项.cpp" />
     <ClCompile Include="13.1.1属性和行为作为整体.cpp" />
     <ClCompile Include="13.1.2案例：设计学生类.cpp" />
-    <ClCompile Include="13.1.3封装权限.cpp" />
+    <ClCompile Include="13.1.3访问权限.cpp" />
+    <ClCompile Include="13.1.4C++中class和struct的区别.cpp" />
+    <ClCompile Include="13.1.5成员属性私有化.cpp" />
+    <ClCompile Include="13.1.6案例1：立方体类.cpp" />
+    <ClCompile Include="13.1.7Circle.cpp" />
+    <ClCompile Include="13.1.7案例2：点和圆的关系.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -233,8 +238,14 @@
     <ClCompile Include="9.2通讯录管理系统练习.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1317point.h" />
+    <ClInclude Include="1317circle.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="swap67.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="13.1.7Point.cpp" />
+    <None Include="13.1.7主函数和全局函数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
