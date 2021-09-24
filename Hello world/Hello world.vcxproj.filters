@@ -366,7 +366,10 @@
     <ClCompile Include="13.1.7Circle.cpp">
       <Filter>源文件\13.类和对象\13.1封装\13.1.7案例2：点和圆的关系 分文件</Filter>
     </ClCompile>
-    <ClCompile Include="13.2.2函数的分类以及调用.cpp">
+    <ClCompile Include="13.2.2构造函数的分类以及调用.cpp">
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="13.2.3拷贝构造函数调用时机.cpp">
       <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
     </ClCompile>
   </ItemGroup>
@@ -392,7 +395,7 @@
       <Filter>源文件\13.类和对象\13.1封装\13.1.7案例2：点和圆的关系 分文件</Filter>
     </None>
     <None Include="13.2.1构造函数和析构函数.cpp">
-      <Filter>源文件\13.类和对象\13.2对象初始化和清理</Filter>
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
     </None>
   </ItemGroup>
 </Project>
