@@ -26,7 +26,7 @@ void isInCircle(Circle& c, Point p)
 		cout << "点在圆内" << endl;
 	}
 }
-int main()
+int main131701()
 {
 	//创建一个圆
 	Circle c1;
@@ -41,6 +41,7 @@ int main()
 	p1.setY(11);
 	//判断关系
 	isInCircle(c1, p1);
+	
 	system("pause");
 	return 0;
 }

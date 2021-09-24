@@ -169,6 +169,7 @@
     <ClCompile Include="13.1.6案例1：立方体类.cpp" />
     <ClCompile Include="13.1.7Circle.cpp" />
     <ClCompile Include="13.1.7案例2：点和圆的关系.cpp" />
+    <ClCompile Include="13.2.2函数的分类以及调用.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
