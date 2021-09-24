@@ -1,11 +1,11 @@
 #include<iostream>
-#include"1317circle.h"
-#include"1317point.h"
+#include"13171circle.h"
+#include"13171point.h"
 //#include"1317circle.h"
 //#include"1317point.h"
 using namespace std;
 //判断点和圆的关系
-void isInCircle(Circle& c, Point p)
+void isInCircle(Circle13171& c, Point13171 p)
 {
 	//计算两点之间距离的平方
 	int distance =
@@ -26,17 +26,17 @@ void isInCircle(Circle& c, Point p)
 		cout << "点在圆内" << endl;
 	}
 }
-int main131701()
+int main13171()
 {
 	//创建一个圆
-	Circle c1;
+	Circle13171 c1;
 	c1.setR(10);//设置圆的半径
-	Point center;
+	Point13171 center;
 	center.setX(10);//设置圆心的X坐标
 	center.setY(0);//设置圆心的Y坐标
 	c1.setCenter(center);//将圆心坐标传入圆类中
 	//创建一个点
-	Point p1;
+	Point13171 p1;
 	p1.setX(10);
 	p1.setY(11);
 	//判断关系

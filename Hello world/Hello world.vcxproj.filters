@@ -377,10 +377,10 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="1317circle.h">
+    <ClInclude Include="13171circle.h">
       <Filter>头文件\13.1.7封装_设计案例2_点和圆的关系</Filter>
     </ClInclude>
-    <ClInclude Include="1317point.h">
+    <ClInclude Include="13171point.h">
       <Filter>头文件\13.1.7封装_设计案例2_点和圆的关系</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,7 +6,7 @@ using namespace std;
 //点到圆心的距离<半径	点在圆内
 //设圆心的坐标是(x1,y1),点的坐标是(x2,y2)C
 ////点类
-class Point
+class Point1317
 {
 public:
 	//设置X坐标
@@ -33,7 +33,7 @@ private:
 	int m_X;
 	int m_Y;
 };
-class Circle
+class Circle1317
 {
 public:
 	//设置半径
@@ -47,21 +47,21 @@ public:
 		return m_R;
 	}
 	//设置圆心
-	void setCenter(Point Center)
+	void setCenter(Point1317 Center)
 	{
 		m_Center = Center;
 	}
 	//获取圆心
-	Point getCenter()//在一个类中可以让另一个类作为本类的成员（类似结构体）
+	Point1317 getCenter()//在一个类中可以让另一个类作为本类的成员（类似结构体）
 	{
 		return m_Center;
 	}
 private:
 	int m_R;//半径
-	Point m_Center;//圆心
+	Point1317 m_Center;//圆心
 };
 //判断点和圆的关系
-void isInCircle(Circle &c,Point p)
+void isInCircle(Circle1317 &c,Point1317 p)
 {
 	//计算两点之间距离的平方
 	int distance =
@@ -85,14 +85,14 @@ void isInCircle(Circle &c,Point p)
 int main1317()
 {
 	//创建一个圆
-	Circle c1;
+	Circle1317 c1;
 	c1.setR(10);//设置圆的半径
-	Point center;
+	Point1317 center;
 	center.setX(10);//设置圆心的X坐标
 	center.setY(0);//设置圆心的Y坐标
 	c1.setCenter(center);//将圆心坐标传入圆类中
 	//创建一个点
-	Point p1;
+	Point1317 p1;
 	p1.setX(10);
 	p1.setY(11);
 	//判断关系

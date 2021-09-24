@@ -239,8 +239,8 @@
     <ClCompile Include="9.2通讯录管理系统练习.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1317point.h" />
-    <ClInclude Include="1317circle.h" />
+    <ClInclude Include="13171point.h" />
+    <ClInclude Include="13171circle.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="swap67.h" />
   </ItemGroup>
