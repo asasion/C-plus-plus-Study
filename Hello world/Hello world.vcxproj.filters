@@ -73,8 +73,8 @@
     <Filter Include="头文件\13.1.7封装_设计案例2_点和圆的关系">
       <UniqueIdentifier>{f04866bb-e302-472a-8932-d1fe9ab98af7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\13.类和对象\13.2对象初始化和清理">
-      <UniqueIdentifier>{5f62e7c1-3171-4e79-b857-fa8ce331b9c6}</UniqueIdentifier>
+    <Filter Include="源文件\13.类和对象\13.2对象的初始化和清理">
+      <UniqueIdentifier>{79f43b23-68b9-4330-a5eb-33cefa8311c0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -366,6 +366,9 @@
     <ClCompile Include="13.1.7Circle.cpp">
       <Filter>源文件\13.类和对象\13.1封装\13.1.7案例2：点和圆的关系 分文件</Filter>
     </ClCompile>
+    <ClCompile Include="13.2.2函数的分类以及调用.cpp">
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
@@ -374,10 +377,10 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="1317circle.h">
+    <ClInclude Include="13171circle.h">
       <Filter>头文件\13.1.7封装_设计案例2_点和圆的关系</Filter>
     </ClInclude>
-    <ClInclude Include="1317point.h">
+    <ClInclude Include="13171point.h">
       <Filter>头文件\13.1.7封装_设计案例2_点和圆的关系</Filter>
     </ClInclude>
   </ItemGroup>
