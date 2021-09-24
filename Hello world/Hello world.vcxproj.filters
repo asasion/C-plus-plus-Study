@@ -73,6 +73,9 @@
     <Filter Include="头文件\13.1.7封装_设计案例2_点和圆的关系">
       <UniqueIdentifier>{f04866bb-e302-472a-8932-d1fe9ab98af7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\13.类和对象\13.2对象初始化和清理">
+      <UniqueIdentifier>{5f62e7c1-3171-4e79-b857-fa8ce331b9c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -384,6 +387,9 @@
     </None>
     <None Include="13.1.7主函数和全局函数.cpp">
       <Filter>源文件\13.类和对象\13.1封装\13.1.7案例2：点和圆的关系 分文件</Filter>
+    </None>
+    <None Include="13.2.1构造函数和析构函数.cpp">
+      <Filter>源文件\13.类和对象\13.2对象初始化和清理</Filter>
     </None>
   </ItemGroup>
 </Project>
