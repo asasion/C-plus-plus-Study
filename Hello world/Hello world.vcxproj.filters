@@ -397,5 +397,8 @@
     <None Include="13.2.1构造函数和析构函数.cpp">
       <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
     </None>
+    <None Include="13.2.4深拷贝与浅拷贝.cpp">
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
+    </None>
   </ItemGroup>
 </Project>

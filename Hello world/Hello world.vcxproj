@@ -249,6 +249,7 @@
     <None Include="13.1.7Point.cpp" />
     <None Include="13.1.7主函数和全局函数.cpp" />
     <None Include="13.2.1构造函数和析构函数.cpp" />
+    <None Include="13.2.4深拷贝与浅拷贝.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
