@@ -372,6 +372,12 @@
     <ClCompile Include="13.2.3拷贝构造函数调用时机.cpp">
       <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
     </ClCompile>
+    <ClCompile Include="16.2.6初始化列表.cpp">
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
+    </ClCompile>
+    <ClCompile Include="16.2.7类对象作为类成员.cpp">
+      <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">

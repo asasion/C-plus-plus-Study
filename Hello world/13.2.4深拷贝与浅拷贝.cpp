@@ -26,7 +26,7 @@ void test132401()
 	Person1324 p1(18);
 	cout << "p1µÄÄêÁäÎª£º" << p1.m_Age << endl;
 }
-int main()
+int main1324()
 {
 	void test132401();
 	system("pause");

@@ -171,6 +171,8 @@
     <ClCompile Include="13.1.7案例2：点和圆的关系.cpp" />
     <ClCompile Include="13.2.2构造函数的分类以及调用.cpp" />
     <ClCompile Include="13.2.3拷贝构造函数调用时机.cpp" />
+    <ClCompile Include="16.2.6初始化列表.cpp" />
+    <ClCompile Include="16.2.7类对象作为类成员.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />

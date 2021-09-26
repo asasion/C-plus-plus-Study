@@ -84,7 +84,7 @@ void test132303()
 	Person1323的默认析构函数调用。
 	*/
 }
-int main()
+int main1323()
 {
 	//test132301();
 	//test132302();

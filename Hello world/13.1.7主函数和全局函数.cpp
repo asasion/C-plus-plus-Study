@@ -1,8 +1,7 @@
 #include<iostream>
 #include"13171circle.h"
 #include"13171point.h"
-//#include"1317circle.h"
-//#include"1317point.h"
+//#pragma comment(linker,"/subsystem:windows")
 using namespace std;
 //判断点和圆的关系
 void isInCircle(Circle13171& c, Point13171 p)
@@ -26,7 +25,7 @@ void isInCircle(Circle13171& c, Point13171 p)
 		cout << "点在圆内" << endl;
 	}
 }
-int main13171()
+int main()
 {
 	//创建一个圆
 	Circle13171 c1;

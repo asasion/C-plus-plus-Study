@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #include<iostream>
 using namespace std;
 //只保留成员函数的声明，并补全代码。
