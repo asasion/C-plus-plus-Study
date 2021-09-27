@@ -45,7 +45,7 @@ void test162701()
 	Person1627 p("张三", "苹果Max");
 	cout << p.m_Name << "拿着：" << p.m_Phone.m_PName << endl;
 }
-int main()
+int main1627()
 {
 	test162701();
 	system("pause");
