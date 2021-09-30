@@ -55,7 +55,7 @@ public:
 
 	//	p2.PersonAddage13211(p1).PersonAddage13211(p1).PersonAddage13211(p1).PersonAddage13211(p1);
 	//}
-int main()
+int main1332()
 {
 	test1321101();//输出结果：p1的年龄为：-858993460
 				  //原	  因：编译器认为三个age是同一个age，因此并未对类的属性age进行赋值操作。
