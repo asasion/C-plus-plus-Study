@@ -12,11 +12,11 @@ using namespace std;
 */
 //全局函数做友元
 //建筑物类
-class Building
+class Building1341
 {
-	friend 	void goodGuy(Building* building);//告诉编译器goodGuy全局函数是一个Building的好朋友，可以访问Building中私有的成员
+	friend 	void goodGuy(Building1341 * building);//告诉编译器goodGuy全局函数是一个Building的好朋友，可以访问Building中私有的成员
 public:
-	Building()
+	Building1341()
 	{
 		m_SittingRoom = "客厅";
 		m_BedRoom = "卧室";
@@ -27,15 +27,15 @@ private:
 	string m_BedRoom;//卧室、私有权限
 };
 //全局函数
-void goodGuy(Building *building)//好哥们函数
+void goodGuy1341(Building1341 *building)//好哥们函数
 {
 	cout << "好哥们的全局函数 正在访问：" << building->m_SittingRoom << endl;
 	cout << "好哥们的全局函数 正在访问：" << building->m_BedRoom << endl;
 }
 void test134101()
 {
-	Building building;
-	goodGuy(&building);
+	Building1341 building;
+	goodGuy1341(&building);
 }
 
 
