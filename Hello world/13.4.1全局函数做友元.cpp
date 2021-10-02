@@ -14,9 +14,10 @@ using namespace std;
 //建筑物类
 class Building1341
 {
-	friend 	void goodGuy(Building1341 * building);//告诉编译器goodGuy全局函数是一个Building的好朋友，可以访问Building中私有的成员
+	//用全局函数访问类中的私有成员
+	friend	void goodGuy1341(Building1341 * building);//告诉编译器goodGuy全局函数是一个Building的好朋友，可以访问Building中私有的成员
 public:
-	Building1341()
+	Building1341()//创建建筑物的同时给成员变量赋初值
 	{
 		m_SittingRoom = "客厅";
 		m_BedRoom = "卧室";
@@ -29,13 +30,14 @@ private:
 //全局函数
 void goodGuy1341(Building1341 *building)//好哥们函数
 {
-	cout << "好哥们的全局函数 正在访问：" << building->m_SittingRoom << endl;
-	cout << "好哥们的全局函数 正在访问：" << building->m_BedRoom << endl;
+	cout << "好哥们的全局函数 正在访问：" << building->m_SittingRoom << endl;//客厅是一个公共属性
+	cout << "好哥们的全局函数 正在访问：" << building->m_BedRoom << endl;//直接不能访问m_BedRoom，
+																		//解决办法：将函数声明放到类中的最上方
 }
 void test134101()
 {
-	Building1341 building;
-	goodGuy1341(&building);
+	Building1341 building;//实例化一个building对象
+	goodGuy1341(&building);//传入building的地址
 }
 
 
