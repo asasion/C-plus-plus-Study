@@ -82,6 +82,9 @@
     <Filter Include="源文件\13.类和对象\13.4友元">
       <UniqueIdentifier>{48dacda6-c119-4ef9-ac29-25b188130f1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\13.类和对象\13.5运算符重载">
+      <UniqueIdentifier>{9b591d4b-3e39-4117-a35c-cad77b46a591}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -407,6 +410,12 @@
     </ClCompile>
     <ClCompile Include="13.4.2友元类（类做友元）.cpp">
       <Filter>源文件\13.类和对象\13.4友元</Filter>
+    </ClCompile>
+    <ClCompile Include="13.5.0运算符重载引言.cpp">
+      <Filter>源文件\13.类和对象\13.5运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="13.5.1加号运算符重载.cpp">
+      <Filter>源文件\13.类和对象\13.5运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

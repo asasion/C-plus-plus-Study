@@ -42,7 +42,7 @@ void test134201()
 	GoodGuy gg;
 	gg.visit();
 }
-int main()
+int main1342()
 {
 	test134201();
 	system("pause");
