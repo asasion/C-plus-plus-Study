@@ -34,7 +34,7 @@ Person1351 operator+(Person1351& p1, int num)//函数运算符重载operator+，也可以发
 	temp.m_B = p1.m_B + num;
 	return temp;
 }
-int main()
+int main1351()
 {
 	Person1351 p1;
 	p1.m_A = 10;

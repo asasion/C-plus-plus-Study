@@ -183,6 +183,8 @@
     <ClCompile Include="13.4.2友元类（类做友元）.cpp" />
     <ClCompile Include="13.5.0运算符重载引言.cpp" />
     <ClCompile Include="13.5.1加号运算符重载.cpp" />
+    <ClCompile Include="13.5.2左移运算符重载.cpp" />
+    <ClCompile Include="13.5.3（不太理解）递增运算符重载.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
