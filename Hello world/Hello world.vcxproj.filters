@@ -423,6 +423,9 @@
     <ClCompile Include="13.5.3（不太理解）递增运算符重载.cpp">
       <Filter>源文件\13.类和对象\13.5运算符重载</Filter>
     </ClCompile>
+    <ClCompile Include="13.5.4赋值运算符重载.cpp">
+      <Filter>源文件\13.类和对象\13.5运算符重载</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">

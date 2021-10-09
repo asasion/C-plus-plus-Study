@@ -47,10 +47,10 @@ void test135301()
 void test135302()
 {
 	MyInteger1353 myint;
-	cout << myint++ << endl;
+	//cout << myint++ << endl;
 	cout << myint << endl;
 }
-int main()
+int main1353()
 {
 	//test135301();
 	//int a = 0;
