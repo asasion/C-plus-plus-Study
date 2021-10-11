@@ -85,6 +85,9 @@
     <Filter Include="源文件\13.类和对象\13.5运算符重载">
       <UniqueIdentifier>{9b591d4b-3e39-4117-a35c-cad77b46a591}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\13.类和对象\13.6继承">
+      <UniqueIdentifier>{9f654bbf-6814-475f-9b3d-a9bd3e99dce1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -431,6 +434,12 @@
     </ClCompile>
     <ClCompile Include="13.5.6函数调用运算符重载（仿函数）.cpp">
       <Filter>源文件\13.类和对象\13.5运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="13.6.1继承的基本语法.cpp">
+      <Filter>源文件\13.类和对象\13.6继承</Filter>
+    </ClCompile>
+    <ClCompile Include="13.6.2继承方式.cpp">
+      <Filter>源文件\13.类和对象\13.6继承</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
