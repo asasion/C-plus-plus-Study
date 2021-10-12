@@ -118,7 +118,7 @@ public:
 		//全部无法访问，因为son3通过私有继承后，全部变成了Son3的私有成员GrandSon3是无法访问到的
 	}
 };
-int main()
+int main1362()
 {
 
 	system("pause");

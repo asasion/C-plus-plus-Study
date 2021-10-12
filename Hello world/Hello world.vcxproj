@@ -190,6 +190,7 @@
     <ClCompile Include="13.5.6函数调用运算符重载（仿函数）.cpp" />
     <ClCompile Include="13.6.1继承的基本语法.cpp" />
     <ClCompile Include="13.6.2继承方式.cpp" />
+    <ClCompile Include="13.6.3继承中的对象模型.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
