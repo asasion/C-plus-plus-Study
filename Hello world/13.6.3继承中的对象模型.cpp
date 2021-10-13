@@ -26,7 +26,7 @@ void test136301()
 	//父类中私有的成员属性是被编译器隐藏了，因此访问不到，但是确实是被继承下来了
 	cout << "size of Son=" << sizeof(Son) << endl;
 }
-int main()
+int main1363()
 {
 	test136301();
 	system("pause");
