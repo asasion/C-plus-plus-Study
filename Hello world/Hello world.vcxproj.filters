@@ -88,6 +88,12 @@
     <Filter Include="源文件\13.类和对象\13.6继承">
       <UniqueIdentifier>{9f654bbf-6814-475f-9b3d-a9bd3e99dce1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\13.类和对象\13.7多态">
+      <UniqueIdentifier>{a01f0cb6-b3fa-463a-a37c-e282952a9182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\13.类和对象\13.7多态\13.7.1多态的概念">
+      <UniqueIdentifier>{d9bfc8b7-5d59-4537-99bc-8e4ea38b2aa8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -455,6 +461,15 @@
     </ClCompile>
     <ClCompile Include="13.6.7多继承语法.cpp">
       <Filter>源文件\13.类和对象\13.6继承</Filter>
+    </ClCompile>
+    <ClCompile Include="13.6.8菱形继承问题以及解决方法.cpp">
+      <Filter>源文件\13.类和对象\13.6继承</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.1.1多态的基本概念.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.1.2多态的基本概念的剖析.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -46,7 +46,7 @@ void test136701()
 	cout << "Base136701::m_A =" << s.Base136701::m_A << endl;//此时如果多继承的两个父类中有一同名成员，在多继承的情况下就会出现二义性，访问对象不明确，需要加作用域来区分
 	cout << "Base136702::m_A =" << s.Base136702::m_A << endl;
 }
-int main()
+int main1367()
 {
 	test136701();
 	system("pause");
