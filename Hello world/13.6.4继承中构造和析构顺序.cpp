@@ -6,37 +6,37 @@ using namespace std;
 当创建一个子类对象是先有的子类对象还是先有的父类对象
 */
 //继承中构造和析构顺序
-class Base
+class Base1364
 {
 public:
-	Base()
+	Base1364()
 	{
-		cout << "Base的构造函数！" << endl;
+		cout << "Base1364的构造函数！" << endl;
 	}
-	~Base()
+	~Base1364()
 	{
-		cout << "Base的析构函数！" << endl;
+		cout << "Base1364的析构函数！" << endl;
 	}
 };
-class Son :public Base
+class Son1364 :public Base1364
 {
 public:
-	Son()
+	Son1364()
 	{
-		cout << "Son的构造函数！" << endl;
+		cout << "Son1364的构造函数！" << endl;
 	}
-	~Son()
+	~Son1364()
 	{
-		cout << "Son的析构函数！" << endl;
+		cout << "Son1364的析构函数！" << endl;
 	}
 };
 void test136401()
 {
-	//Base b;
+	//Base1364 b;
 	/*
-	运行结果：Base的构造函数！Base的析构函数！
+	运行结果：Base1364的构造函数！Base1364的析构函数！
 	*/
-	Son s;
+	Son1364 s;
 	/*
 	运行结果：
 	Base的构造函数！
@@ -45,7 +45,7 @@ void test136401()
 	Base的析构函数！
 	*/
 }
-int main()
+int main1364()
 {
 	test136401();
 	

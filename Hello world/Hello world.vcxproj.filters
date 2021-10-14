@@ -447,6 +447,12 @@
     <ClCompile Include="13.6.4继承中构造和析构顺序.cpp">
       <Filter>源文件\13.类和对象\13.6继承</Filter>
     </ClCompile>
+    <ClCompile Include="13.6.5继承同名成员处理方式.cpp">
+      <Filter>源文件\13.类和对象\13.6继承</Filter>
+    </ClCompile>
+    <ClCompile Include="13.6.6继承同名静态成员处理方式.cpp">
+      <Filter>源文件\13.类和对象\13.6继承</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
