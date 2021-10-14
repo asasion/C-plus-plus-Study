@@ -89,6 +89,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -194,6 +195,7 @@
     <ClCompile Include="13.6.4继承中构造和析构顺序.cpp" />
     <ClCompile Include="13.6.5继承同名成员处理方式.cpp" />
     <ClCompile Include="13.6.6继承同名静态成员处理方式.cpp" />
+    <ClCompile Include="13.6.7多继承语法.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
