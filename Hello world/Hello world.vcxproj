@@ -198,7 +198,9 @@
     <ClCompile Include="13.6.7多继承语法.cpp" />
     <ClCompile Include="13.6.8菱形继承问题以及解决方法.cpp" />
     <ClCompile Include="13.7.1.1多态的基本概念.cpp" />
-    <ClCompile Include="13.7.1.2多态的基本概念的剖析.cpp" />
+    <ClCompile Include="13.7.1.2多态的原理剖析.cpp" />
+    <ClCompile Include="13.7.3纯虚函数和抽象类.cpp" />
+    <ClCompile Include="13.7.2虚指针指向错误，存疑多态案例一-计算器类.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -266,6 +268,7 @@
     <ClCompile Include="6.3值传递.cpp" />
     <ClCompile Include="9.1通讯录管理系统.cpp" />
     <ClCompile Include="9.2通讯录管理系统练习.cpp" />
+    <ClCompile Include="13.7.2多态案例一-计算器类讲义实现.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="13171point.h" />

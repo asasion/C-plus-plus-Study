@@ -24,7 +24,7 @@ class Cat137101 :public Animal137101
 {
 public:
 	//虚函数
-	void speak()//重写父类中的虚函数
+	virtual void speak()//重写父类中的虚函数，子类中的virtual关键词可写可不写
 	{
 		cout << "小猫在说话" << endl;
 	}
