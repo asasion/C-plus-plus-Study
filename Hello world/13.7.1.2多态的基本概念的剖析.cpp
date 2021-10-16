@@ -45,7 +45,7 @@ void test13710202()
 	//vfptr（虚函数（表）指针） v-virtual、f-function、ptr-pointer指向一个虚函数表vftable v-virtual、f-function、table
 	//虚函数表内会记录一个虚函数的地址 &Animal::speak
 }
-int main()
+int main13712()
 {
 	//test13710201();
 	test13710202();

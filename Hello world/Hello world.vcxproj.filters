@@ -471,6 +471,9 @@
     <ClCompile Include="13.7.1.2多态的基本概念的剖析.cpp">
       <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
     </ClCompile>
+    <ClCompile Include="13.7.4多态案例二-制作饮品.cpp">
+      <Filter>源文件\13.类和对象\13.7多态</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
