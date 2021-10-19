@@ -198,7 +198,9 @@
     <ClCompile Include="13.6.7多继承语法.cpp" />
     <ClCompile Include="13.6.8菱形继承问题以及解决方法.cpp" />
     <ClCompile Include="13.7.1.1多态的基本概念.cpp" />
-    <ClCompile Include="13.7.1.2多态的基本概念的剖析.cpp" />
+    <ClCompile Include="13.7.1.2多态的原理剖析.cpp" />
+    <ClCompile Include="13.7.2虚指针指向错误，存疑多态案例一-计算器类.cpp" />
+    <ClCompile Include="13.7.3纯虚函数和抽象类.cpp" />
     <ClCompile Include="13.7.4多态案例二-制作饮品.cpp" />
     <ClCompile Include="13.7.5虚析构和纯虚析构.cpp" />
     <ClCompile Include="2.1整形.cpp" />

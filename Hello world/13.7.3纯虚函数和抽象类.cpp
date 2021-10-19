@@ -37,7 +37,7 @@ void test137301()
 	Base1373* base = new Son1373;
 	base->func();
 }
-int main()
+int main1373()
 {
 	test137301();
 	system("pause");
