@@ -70,7 +70,7 @@ void test137501()
 	//解决办法：将子类中的析构函数改为虚析构函数
 	delete animal;
 }
-int main()
+int main1375()
 {
 	test137501();//运行结果：最后Cat的析构函数没有被调用，堆区的数据没有释放干净，导致了内存泄漏
 	system("pause");

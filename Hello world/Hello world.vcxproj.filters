@@ -486,6 +486,9 @@
     <ClCompile Include="13.7.3纯虚函数和抽象类.cpp">
       <Filter>源文件\13.类和对象\13.7多态</Filter>
     </ClCompile>
+    <ClCompile Include="13.7.6电脑组装需求分析%28为什么创建其他电脑可以直接new%29.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
