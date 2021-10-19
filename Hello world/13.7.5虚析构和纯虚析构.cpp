@@ -15,6 +15,13 @@ using namespace std;
 virtual ~类名(){}
 纯虚析构语法：
 virtual ~类名()=0;
+类名
+
+
+
+
+
+
 */
 class Animal1375
 {
