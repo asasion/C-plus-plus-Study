@@ -199,11 +199,15 @@
     <ClCompile Include="13.6.8菱形继承问题以及解决方法.cpp" />
     <ClCompile Include="13.7.1.1多态的基本概念.cpp" />
     <ClCompile Include="13.7.1.2多态的原理剖析.cpp" />
+    <ClCompile Include="13.7.2.2多态写法.cpp" />
     <ClCompile Include="13.7.2虚指针指向错误，存疑多态案例一-计算器类.cpp" />
+    <ClCompile Include="13.7.2.1普通写法.cpp" />
     <ClCompile Include="13.7.3纯虚函数和抽象类.cpp" />
     <ClCompile Include="13.7.4多态案例二-制作饮品.cpp" />
     <ClCompile Include="13.7.5虚析构和纯虚析构.cpp" />
-    <ClCompile Include="13.7.6电脑组装需求分析%28为什么创建其他电脑可以直接new%29.cpp" />
+    <ClCompile Include="13.7.6电脑组装需求分析和实现.cpp" />
+    <ClCompile Include="14.1.1写文件.cpp" />
+    <ClCompile Include="14.1.2读文件.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -284,6 +288,10 @@
     <None Include="13.1.7主函数和全局函数.cpp" />
     <None Include="13.2.1构造函数和析构函数.cpp" />
     <None Include="13.2.4深拷贝与浅拷贝.cpp" />
+    <None Include="test.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

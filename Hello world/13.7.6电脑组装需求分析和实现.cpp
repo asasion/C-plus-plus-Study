@@ -118,8 +118,6 @@ public://重写父类中的纯虚函数
 	{
 		cout << "Lenovo的CPU开始计算了！" << endl;
 	}
-
-
 };
 class LenovoGPU : public GPU
 {
@@ -160,7 +158,7 @@ void test137601()
 	computer3->work();
 	delete computer3;
 }
-int main()
+int main1376()
 {
 	test137601();
 	system("pause");

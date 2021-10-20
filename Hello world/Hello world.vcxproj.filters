@@ -94,6 +94,15 @@
     <Filter Include="源文件\13.类和对象\13.7多态\13.7.1多态的概念">
       <UniqueIdentifier>{d9bfc8b7-5d59-4537-99bc-8e4ea38b2aa8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\13.类和对象\13.7多态\13.7.2多态案例一-计算器类（存疑，用多态的方法计算结果不对）">
+      <UniqueIdentifier>{aee1206e-3f56-40cd-be26-baf983571c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\14.文件操作">
+      <UniqueIdentifier>{6eb4bbbb-b027-4279-b31a-b02f12693341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\14.文件操作\14.1文本文件">
+      <UniqueIdentifier>{1b201ab4-a885-4601-894b-673943c9e907}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -474,20 +483,32 @@
     <ClCompile Include="13.7.5虚析构和纯虚析构.cpp">
       <Filter>源文件\13.类和对象\13.7多态</Filter>
     </ClCompile>
-    <ClCompile Include="13.7.2多态案例一-计算器类讲义实现.cpp">
-      <Filter>源文件\13.类和对象\13.7多态</Filter>
-    </ClCompile>
     <ClCompile Include="13.7.1.2多态的原理剖析.cpp">
       <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
-    </ClCompile>
-    <ClCompile Include="13.7.2虚指针指向错误，存疑多态案例一-计算器类.cpp">
-      <Filter>源文件\13.类和对象\13.7多态</Filter>
     </ClCompile>
     <ClCompile Include="13.7.3纯虚函数和抽象类.cpp">
       <Filter>源文件\13.类和对象\13.7多态</Filter>
     </ClCompile>
-    <ClCompile Include="13.7.6电脑组装需求分析%28为什么创建其他电脑可以直接new%29.cpp">
-      <Filter>源文件\13.类和对象\13.7多态\13.7.1多态的概念</Filter>
+    <ClCompile Include="13.7.6电脑组装需求分析和实现.cpp">
+      <Filter>源文件\13.类和对象\13.7多态</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.2多态案例一-计算器类讲义实现.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.2多态案例一-计算器类（存疑，用多态的方法计算结果不对）</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.2.1普通写法.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.2多态案例一-计算器类（存疑，用多态的方法计算结果不对）</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.2虚指针指向错误，存疑多态案例一-计算器类.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.2多态案例一-计算器类（存疑，用多态的方法计算结果不对）</Filter>
+    </ClCompile>
+    <ClCompile Include="13.7.2.2多态写法.cpp">
+      <Filter>源文件\13.类和对象\13.7多态\13.7.2多态案例一-计算器类（存疑，用多态的方法计算结果不对）</Filter>
+    </ClCompile>
+    <ClCompile Include="14.1.2读文件.cpp">
+      <Filter>源文件\14.文件操作\14.1文本文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.1.1写文件.cpp">
+      <Filter>源文件\14.文件操作\14.1文本文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -517,5 +538,13 @@
     <None Include="13.2.4深拷贝与浅拷贝.cpp">
       <Filter>源文件\13.类和对象\13.2对象的初始化和清理</Filter>
     </None>
+    <None Include="test.md">
+      <Filter>源文件\14.文件操作\14.1文本文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>源文件\14.文件操作\14.1文本文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
