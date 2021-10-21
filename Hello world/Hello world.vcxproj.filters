@@ -103,6 +103,9 @@
     <Filter Include="源文件\14.文件操作\14.1文本文件">
       <UniqueIdentifier>{1b201ab4-a885-4601-894b-673943c9e907}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\14.文件操作\14.2二进制文件">
+      <UniqueIdentifier>{7f93c99a-fcc2-4674-aa75-bcb710c6ced9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -510,6 +513,12 @@
     <ClCompile Include="14.1.1写文件.cpp">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
     </ClCompile>
+    <ClCompile Include="14.2.1写文件.cpp">
+      <Filter>源文件\14.文件操作\14.2二进制文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.2.2读文件.cpp">
+      <Filter>源文件\14.文件操作\14.2二进制文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
@@ -545,6 +554,9 @@
   <ItemGroup>
     <Text Include="test.txt">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
+    </Text>
+    <Text Include="person.txt">
+      <Filter>源文件\14.文件操作\14.2二进制文件</Filter>
     </Text>
   </ItemGroup>
 </Project>

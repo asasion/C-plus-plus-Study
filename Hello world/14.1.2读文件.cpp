@@ -16,7 +16,7 @@ ifs.open("文件路径",打开方式);
 5、关闭文件
 ifs.close();
 */
-int main()
+int main1412()
 {
 	//1、包含头文件
 
