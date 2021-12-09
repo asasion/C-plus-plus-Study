@@ -208,7 +208,8 @@
     <ClCompile Include="13.7.6电脑组装需求分析和实现.cpp" />
     <ClCompile Include="14.1.1写文件.cpp" />
     <ClCompile Include="14.1.2读文件.cpp" />
-    <ClCompile Include="15.1管理系统需求.cpp" />
+    <ClCompile Include="14.2.1写文件.cpp" />
+    <ClCompile Include="14.2.2读文件.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -294,6 +295,7 @@
     <None Include="test.md" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="person.txt" />
     <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
