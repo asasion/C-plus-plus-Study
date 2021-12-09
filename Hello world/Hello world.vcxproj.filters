@@ -103,6 +103,12 @@
     <Filter Include="源文件\14.文件操作\14.1文本文件">
       <UniqueIdentifier>{1b201ab4-a885-4601-894b-673943c9e907}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\15.职工管理系统">
+      <UniqueIdentifier>{f81046b3-6447-4d31-8f40-da1eb780b04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\课件">
+      <UniqueIdentifier>{81053999-5321-4503-ac38-81981200fc04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -510,6 +516,9 @@
     <ClCompile Include="14.1.1写文件.cpp">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
     </ClCompile>
+    <ClCompile Include="15.1管理系统需求.cpp">
+      <Filter>源文件\15.职工管理系统</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="swap67.h">
@@ -540,6 +549,12 @@
     </None>
     <None Include="test.md">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
+    </None>
+    <None Include="..\..\B站黑马C++视频讲义\第3阶段-C++核心编程 资料\资料\讲义\C++核心编程.md">
+      <Filter>源文件\课件</Filter>
+    </None>
+    <None Include="..\..\B站黑马C++视频讲义\第4阶段实战-基于多态的企业职工系统资料\基于多态的企业职工系统资料\讲义\职工管理系统.md">
+      <Filter>源文件\15.职工管理系统</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

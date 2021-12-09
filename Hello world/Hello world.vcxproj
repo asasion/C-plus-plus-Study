@@ -208,6 +208,7 @@
     <ClCompile Include="13.7.6电脑组装需求分析和实现.cpp" />
     <ClCompile Include="14.1.1写文件.cpp" />
     <ClCompile Include="14.1.2读文件.cpp" />
+    <ClCompile Include="15.1管理系统需求.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
@@ -284,6 +285,8 @@
     <ClInclude Include="swap67.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\B站黑马C++视频讲义\第3阶段-C++核心编程 资料\资料\讲义\C++核心编程.md" />
+    <None Include="..\..\B站黑马C++视频讲义\第4阶段实战-基于多态的企业职工系统资料\基于多态的企业职工系统资料\讲义\职工管理系统.md" />
     <None Include="13.1.7Point.cpp" />
     <None Include="13.1.7主函数和全局函数.cpp" />
     <None Include="13.2.1构造函数和析构函数.cpp" />
