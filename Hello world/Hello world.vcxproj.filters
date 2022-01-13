@@ -109,6 +109,9 @@
     <Filter Include="源文件\课件">
       <UniqueIdentifier>{81053999-5321-4503-ac38-81981200fc04}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\16.模板">
+      <UniqueIdentifier>{9fddb65c-0bf6-46d5-9769-ec0a87808269}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.1第一个c++程序hello world.cpp">
@@ -516,8 +519,14 @@
     <ClCompile Include="14.1.1写文件.cpp">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
     </ClCompile>
-    <ClCompile Include="15.1管理系统需求.cpp">
-      <Filter>源文件\15.职工管理系统</Filter>
+    <ClCompile Include="14.2.1写文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.2.2读文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.1模板.cpp">
+      <Filter>源文件\16.模板</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -561,8 +570,6 @@
     <Text Include="test.txt">
       <Filter>源文件\14.文件操作\14.1文本文件</Filter>
     </Text>
-    <Text Include="person.txt">
-      <Filter>源文件\14.文件操作\14.2二进制文件</Filter>
-    </Text>
+    <Text Include="person.txt" />
   </ItemGroup>
 </Project>

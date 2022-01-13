@@ -210,6 +210,7 @@
     <ClCompile Include="14.1.2读文件.cpp" />
     <ClCompile Include="14.2.1写文件.cpp" />
     <ClCompile Include="14.2.2读文件.cpp" />
+    <ClCompile Include="16.1模板.cpp" />
     <ClCompile Include="2.1整形.cpp" />
     <ClCompile Include="2.2sizeof关键字.cpp" />
     <ClCompile Include="4.2选择结构-多行if语句.cpp" />
